@@ -99,6 +99,13 @@ h2 {
     width: 960px;
 }
 
+.col-1-3 {
+    width: 33.33%;
+  }
+  .col-2-3 {
+    width: 66.66%;
+  }
+
 /*
   ========================================
   Clearfix, used to contain float
@@ -150,7 +157,7 @@ h2 {
     display: inline-block;
     margin: 22px 10px;
     vertical-align: bottom;
-    border-right: 1px solid #666;
+    border-right: 1px solid #ddd;
     padding-right: 10px;
   }
 .nav li:last-child {
@@ -220,3 +227,32 @@ a:hover {
     color: #777;
     text-decoration: none;
   }
+
+/*
+  ========================================
+  picture
+  ========================================
+*/
+
+.pic {
+    width: 250px;
+    height: 200px;
+}
+
+.dimension {
+    display: inline-block;
+}
+
+.right-align {
+    margin-left: 22px;
+}
+
+.text {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 250px;
+    padding: 22px, auto;
+    color: #fff;
+    position: relative;
+    bottom: 70px;
+}
