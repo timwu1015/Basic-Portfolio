@@ -211,7 +211,7 @@ h2 {
     padding-top: 22px;
     background-color: #666;
     border-top: 4px solid #4aaaa5;
-    color: #fff;
+    color: #ddd;
 }
 
 /*
@@ -255,4 +255,36 @@ a:hover {
     color: #fff;
     position: relative;
     bottom: 70px;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact {
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    margin: 5px 0 15px 0;
+    padding: 5px 8px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.button {
+    color: #fff;
+    background: #4aaaa5;
+    font-weight: 400;
+    padding: 10px 30px;
+    font-size: 18px;
 }
