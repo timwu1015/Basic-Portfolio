@@ -156,7 +156,7 @@ h2 {
 .nav li {
     display: inline-block;
     margin: 22px 10px;
-    vertical-align: bottom;
+    vertical-align: top;
     border-right: 1px solid #ddd;
     padding-right: 10px;
   }
